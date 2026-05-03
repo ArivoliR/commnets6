@@ -1,0 +1,61 @@
+3x3 Grid Traffic Simulation — Assignment 6
+==================================================
+total_steps: 300
+total_generated: 315
+total_spawned: 315
+total_absorbed: 281
+vehicles_in_network: 34
+vehicles_waiting: 0
+avg_travel_time: 17.790035587188612
+min_travel_time: 8
+max_travel_time: 37
+avg_queue_length: 7.62
+peak_queue_length: 22
+
+Per sink:
+  SINK_K2: absorbed=55, avg_travel=17.84
+  SINK_K1K5: absorbed=82, avg_travel=19.27
+  SINK_K3K4: absorbed=144, avg_travel=16.93
+
+Per junction:
+  J00 (3-way): 159 forwarded
+  J10 (3-way): 57 forwarded
+  J20 (3-way): 55 forwarded
+  J01 (4-way): 291 forwarded
+  J11 (4-way): 107 forwarded
+  J21 (4-way): 108 forwarded
+  J02 (3-way): 229 forwarded
+  J12 (3-way): 84 forwarded
+  J22 (3-way): 83 forwarded
+
+Per road:
+  R_src_s1s4_J00: total=101, avg_queue=0.25
+  R_src_s2s5_J01: total=106, avg_queue=2.29
+  R_src_s3_J21: total=108, avg_queue=0.11
+  R_J20_snk_k2: total=55, avg_queue=0.00
+  R_J22_snk_k1k5: total=83, avg_queue=0.00
+  R_J02_snk_k3k4: total=144, avg_queue=0.00
+  R_J00_J10: total=59, avg_queue=0.00
+  R_J10_J00: total=0, avg_queue=0.00
+  R_J10_J20: total=57, avg_queue=0.00
+  R_J20_J10: total=0, avg_queue=0.00
+  R_J01_J11: total=0, avg_queue=0.00
+  R_J11_J01: total=107, avg_queue=2.33
+  R_J11_J21: total=0, avg_queue=0.00
+  R_J21_J11: total=108, avg_queue=0.00
+  R_J02_J12: total=85, avg_queue=0.00
+  R_J12_J02: total=0, avg_queue=0.00
+  R_J12_J22: total=84, avg_queue=0.00
+  R_J22_J12: total=0, avg_queue=0.00
+  R_J00_J01: total=100, avg_queue=2.48
+  R_J01_J00: total=59, avg_queue=0.09
+  R_J01_J02: total=232, avg_queue=0.00
+  R_J02_J01: total=0, avg_queue=0.00
+  R_J10_J11: total=0, avg_queue=0.00
+  R_J11_J10: total=0, avg_queue=0.00
+  R_J11_J12: total=0, avg_queue=0.00
+  R_J12_J11: total=0, avg_queue=0.00
+  R_J20_J21: total=0, avg_queue=0.00
+  R_J21_J20: total=0, avg_queue=0.00
+  R_J21_J22: total=0, avg_queue=0.00
+  R_J22_J21: total=0, avg_queue=0.00
